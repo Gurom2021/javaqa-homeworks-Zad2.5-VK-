@@ -5,6 +5,15 @@ public class CommentsInfo {
     private boolean canPost;
     private boolean canClose;
     private boolean canOpen;
+    private boolean groupCanPost;
+
+    public boolean isGroupCanPost() {
+        return groupCanPost;
+    }
+
+    public void setGroupCanPost(boolean groupCanPost) {
+        this.groupCanPost = groupCanPost;
+    }
 
     public boolean isCanClose() {
         return canClose;

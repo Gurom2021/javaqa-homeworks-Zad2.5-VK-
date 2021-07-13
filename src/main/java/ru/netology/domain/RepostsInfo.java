@@ -4,6 +4,8 @@ public class RepostsInfo {
     private int count;
     private boolean canRepost;
 
+
+
     public int getCount() {
         return count;
     }

@@ -8,10 +8,55 @@ public class PostInfo {
     private CommentsInfo commentsInfo;
     private RepostsInfo repostsInfo;
     private ViewsInfo viewsInfo;
+    private GeoInfo geoInfo;
+    private DonutInfo donutInfo;
     private int ownerId;
     private boolean canPin;
     private boolean canDelete;
     private boolean canEdit;
+    private boolean friendsOnly;
+    private boolean isPinned;
+    private boolean markedAsAds;
+
+    public GeoInfo getGeoInfo() {
+        return geoInfo;
+    }
+
+    public void setGeoInfo(GeoInfo geoInfo) {
+        this.geoInfo = geoInfo;
+    }
+
+    public DonutInfo getDonutInfo() {
+        return donutInfo;
+    }
+
+    public void setDonutInfo(DonutInfo donutInfo) {
+        this.donutInfo = donutInfo;
+    }
+
+    public boolean isPinned() {
+        return isPinned;
+    }
+
+    public void setPinned(boolean pinned) {
+        isPinned = pinned;
+    }
+
+    public boolean isMarkedAsAds() {
+        return markedAsAds;
+    }
+
+    public void setMarkedAsAds(boolean markedAsAds) {
+        this.markedAsAds = markedAsAds;
+    }
+
+    public boolean isFriendsOnly() {
+        return friendsOnly;
+    }
+
+    public void setFriendsOnly(boolean friendsOnly) {
+        this.friendsOnly = friendsOnly;
+    }
 
     public int getOwnerId() {
         return ownerId;
